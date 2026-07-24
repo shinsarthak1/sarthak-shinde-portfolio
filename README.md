@@ -4,7 +4,7 @@ Aspiring Software Engineer with a strong foundation in web development, data str
 
 ## Technical Skills
 
-* **Languages:** Java, JavaScript, TypeScript, SQL
+* **Languages:** Java, JavaScript, Python , SQL
 * **Frontend:** React, HTML5, CSS3
 * **Databases:** MongoDB
 * **Tools & Technologies:** Git, GitHub, Netlify, IndexedDB
@@ -29,9 +29,9 @@ Aspiring Software Engineer with a strong foundation in web development, data str
 ## Connect With Me
 
 * **Portfolio:** [Portfolio Website]
-* **GitHub:** [GitHub Profile]
-* **LinkedIn:** [LinkedIn Profile]
-* **LeetCode:** [LeetCode Profile]
+* **GitHub:** https://github.com/shinsarthak1
+* **LinkedIn:** https://www.linkedin.com/in/sarthak-p-shinde/
+* **LeetCode:** https://leetcode.com/u/shinsarthak1/
 
 ---
 
