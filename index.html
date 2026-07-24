@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sarthak's Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav>
+      <div class="logo">Sarthak Shinde</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="./Resume-Sarthak.pdf" target="_blank" class="resume-btn"> Resume </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="home">
+        <div class="hero-left">
+          <div class="one">Welcome to my World!</div>
+
+          <div class="two">I'm a <span class="typing"></span></div>
+          <div class="btn-container">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="./Resume-Sarthak.pdf" class="btn">Resume</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <img src="./images/hero.jpeg" alt="my image" />
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about">
+        <h2>About Me</h2>
+
+        <div class="about-card">
+          <p>
+            Hello! I'm Sarthak Shinde, an aspiring Frontend Developer based in
+            Mumbai, India. I specialize in building responsive and interactive
+            web applications using React and modern JavaScript.
+          </p>
+
+          <p>
+            I enjoy crafting clean user interfaces, experimenting with new
+            technologies, and bringing ideas to life through code. Whether it's
+            designing a food ordering platform, visualizing JavaScript's Event
+            Loop, or building offline-first applications, I love solving
+            problems and creating meaningful user experiences.
+          </p>
+
+          <p>
+            I'm currently looking for Frontend Developer opportunities where I
+            can contribute to impactful products, collaborate with talented
+            teams, and continue growing as a Software Engineer.
+          </p>
+        </div>
+      </section>
+
+      <!-- Project 1 -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project" id="projects">
+          <div class="project-image">
+            <img src="./images/Terminal Notes Studio.png" alt="" />
+          </div>
+
+          <div class="project-info">
+            <h3>Terminal Notes App</h3>
+
+            <p class="project-desc">
+              Keyboard-first note-taking application with persistent offline
+              storage and lightning-fast navigation.
+            </p>
+
+            <div class="tech-stack">
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>IndexedDB</span>
+            </div>
+
+            <div class="buttons">
+              <button class="btn">Demo</button>
+              <button class="btn">GitHub</button>
+              <button class="btn">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project row-reverse">
+          <div class="project-image">
+            <img src="./images/JavaScript Event Loop Visualizer.png" alt="" />
+          </div>
+
+          <div class="project-info">
+            <h3>JavaScript Event Loop Visualizer</h3>
+
+            <p class="project-desc">
+              Interactive simulator that visualizes JavaScript's asynchronous
+              execution model in real time.
+            </p>
+
+            <div class="tech-stack">
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>Framer Motion</span>
+              <span>CSS</span>
+            </div>
+
+            <div class="buttons">
+              <button class="btn">Demo</button>
+              <button class="btn">GitHub</button>
+              <button class="btn">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project">
+          <div class="project-image">
+            <img src="./images/website-logo/2.png" alt="QuickBites" />
+          </div>
+
+          <div class="project-info">
+            <h3>QuickBites</h3>
+
+            <p class="project-desc">
+              Modern food ordering interface with responsive layouts, dark mode
+              support, and an optimized shopping experience.
+            </p>
+
+            <div class="tech-stack">
+              <span>React</span>
+              <span>Vite</span>
+              <span>Tailwind CSS</span>
+              <span>shadcn/ui</span>
+            </div>
+
+            <div class="buttons">
+              <button class="btn">Demo</button>
+              <button class="btn">GitHub</button>
+              <button class="btn">Details</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">React</div>
+          <div class="skill">Tailwind CSS</div>
+          <div class="skill">Shadcn UI</div>
+          <div class="skill">Git</div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+
+        <p>
+          I'm currently seeking Software Development opportunities with a strong
+          interest in Frontend Development. Feel free to reach out if you'd like
+          to discuss a project, collaboration, or potential role.
+        </p>
+
+        <div class="contact-container">
+          <div class="contact-item">
+            <h3>Email</h3>
+            <p>shin.sarthak@gmail.com</p>
+          </div>
+
+          <div class="contact-item">
+            <h3>Phone</h3>
+            <p>+91 91670 40343</p>
+          </div>
+
+          <div class="contact-item">
+            <h3>Location</h3>
+            <p>Mumbai, Maharashtra, India</p>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a
+            href="https://github.com/shinsarthak1"
+            class="social-btn"
+            target="_blank"
+          >
+            <i class="fa-brands fa-github"></i>
+            GitHub
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/sarthak-p-shinde/"
+            class="social-btn"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+            LinkedIn
+          </a>
+
+          <a href="https://leetcode.com/u/shinsarthak1/" class="social-btn" target="_blank">
+            <img
+              src="./images/leetcode-brands-solid-full.svg"
+              alt="LeetCode"
+              class="leetcode-icon"
+            />
+            LeetCode
+          </a>
+        </div>
+      </section>
+    </main>
+    <!-- Footer Section -->
+    <footer>Copyright 2026 | All rights reserved.</footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
